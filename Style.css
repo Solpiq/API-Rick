@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body{
+    text-align: center;
+    background-color: #8a2be2;
+    margin: 55px;
+}
+#resultado{
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    grid-template-rows: auto;
+    gap: 30px 10px;
+}
+h1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
